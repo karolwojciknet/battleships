@@ -1,0 +1,72 @@
+body {
+	max-width: 1200px;
+	border: 1px solid black;
+}
+
+header {
+	min-width: 1200px;
+	background-color: red;
+}
+
+footer {
+	min-width: 1200px;
+	background-color: red;
+}
+
+main {
+	overflow: hidden;
+}
+#settings{
+	width: 200px;
+	background-color: yellow;
+	border: 1px solid grey;
+	float:left;
+}
+
+.board {
+	/*display: inline-block;*/
+	
+	overflow: hidden;
+}
+
+.playerBoard {
+	margin: 10px;
+}
+
+.playerBoard table{
+	border-spacing: 0px;
+}
+
+.boardRow {
+	min-width: 420px;
+	max-width: 420px;
+	margin: 0px;
+	padding: 0px;
+}
+
+td {
+	margin: 0px;
+	padding: 0px;
+	background-color: #0033cc;
+	border: 1px solid #00134d;
+	width: 40px;
+	height: 40px;
+	min-width: 40px;
+	max-width: 40px; 
+}
+
+td.empty {
+
+}
+
+td.ship {
+	background-color: yellow;
+}
+
+td.hit {
+	background-color: green;
+}
+
+td.miss {
+	background-color: red;
+}
